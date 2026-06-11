@@ -12,7 +12,7 @@ const cors = require('cors');
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://your-app.vercel.app' // We will update this exact string later!
+    'https://chat-app-iota-rouge.vercel.app/' // updated
   ]
 }));
 
